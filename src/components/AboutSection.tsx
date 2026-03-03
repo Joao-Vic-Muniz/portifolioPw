@@ -4,17 +4,17 @@ const highlights = [
   {
     icon: Code2,
     title: "Frontend",
-    desc: "Interfaces modernas com React, TypeScript e animações fluidas.",
+    desc: "Interfaces modernas desenvolvidas por Davi e João com React, TypeScript e animações fluidas.",
   },
   {
     icon: Cpu,
     title: "Backend",
-    desc: "APIs robustas com Node.js, Express e bancos de dados SQL/NoSQL.",
+    desc: "APIs robustas criadas com Node.js, Express e bancos de dados SQL/NoSQL.",
   },
   {
     icon: Globe,
     title: "DevOps",
-    desc: "Deploy contínuo com Docker, CI/CD e serviços em nuvem.",
+    desc: "Deploy contínuo utilizando Docker, CI/CD e serviços em nuvem.",
   },
 ];
 
@@ -26,26 +26,28 @@ export default function AboutSection() {
           {/* Text */}
           <div>
             <p className="text-primary text-sm font-mono tracking-[0.25em] uppercase mb-3">
-              01. Sobre mim
+              01. Sobre nós
             </p>
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 leading-tight">
               Construindo o futuro,{" "}
               <span className="text-primary">linha por linha</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Sou um desenvolvedor full stack apaixonado por criar produtos digitais que combinam
-              desempenho técnico com design excepcional. Tenho mais de 4 anos de experiência
-              trabalhando em startups e projetos freelance.
+              Somos Davi e João, desenvolvedores full stack apaixonados por criar
+              produtos digitais que combinam desempenho técnico com design
+              excepcional. Trabalhamos em projetos modernos focados em
+              performance, escalabilidade e experiência do usuário.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Quando não estou codando, você me encontra explorando novas tecnologias, contribuindo
-              com open-source ou curtindo uma boa xícara de café ☕
+              Quando não estamos codando, estamos estudando novas tecnologias,
+              desenvolvendo projetos próprios e evoluindo constantemente como
+              desenvolvedores.
             </p>
             <a
               href="#contact"
               className="inline-block px-7 py-3 rounded-full border border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all font-semibold"
             >
-              Baixar CV
+              Entrar em Contato
             </a>
           </div>
 
@@ -60,8 +62,12 @@ export default function AboutSection() {
                   <Icon size={20} className="text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-display font-semibold text-foreground mb-1">{title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{desc}</p>
+                  <h3 className="font-display font-semibold text-foreground mb-1">
+                    {title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {desc}
+                  </p>
                 </div>
               </div>
             ))}

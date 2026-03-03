@@ -23,7 +23,7 @@ export default function SkillsSection() {
             03. Skills
           </p>
           <h2 className="text-4xl md:text-5xl font-display font-bold">
-            Minhas <span className="text-primary">habilidades</span>
+            Nossas <span className="text-primary">habilidades</span>
           </h2>
         </div>
 
@@ -49,7 +49,7 @@ export default function SkillsSection() {
           {/* Tools grid */}
           <div>
             <h3 className="font-display font-semibold text-lg mb-6 text-muted-foreground uppercase tracking-wider text-sm">
-              Ferramentas & Tecnologias
+              Ferramentas & Tecnologias que Davi e João utilizam
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {tools.map((tool) => (

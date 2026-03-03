@@ -16,7 +16,7 @@ export default function Index() {
       <ContactSection />
       <footer className="py-8 text-center text-muted-foreground text-sm border-t border-border">
         <p>
-          Feito com ❤️ por <span className="text-primary font-semibold">Alex Silva</span> · {new Date().getFullYear()}
+          Feito com ❤️ por <span className="text-primary font-semibold">Davi, João e um agente amigo</span> · {new Date().getFullYear()}
         </p>
       </footer>
     </div>

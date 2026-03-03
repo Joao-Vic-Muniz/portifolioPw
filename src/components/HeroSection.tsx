@@ -21,16 +21,16 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center px-6 section-reveal">
         <p className="text-primary text-sm font-mono tracking-[0.3em] uppercase mb-4 glow-text">
-          Olá, me chamo
+          Olá, nós somos
         </p>
         <h1 className="text-6xl md:text-8xl font-display font-extrabold leading-none mb-4">
-          Alex <span className="text-primary glow-text">Silva</span>
+          Davi <span className="text-primary glow-text">&</span> João
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground font-light mb-2">
-          Desenvolvedor Full Stack
+          Desenvolvedores Full Stack
         </p>
         <p className="text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
-          Transformo ideias em experiências digitais elegantes com React, Node.js e paixão por UI/UX.
+          Transformamos ideias em experiências digitais elegantes com React, Node.js e paixão por UI/UX.
         </p>
 
         {/* CTA */}
@@ -45,7 +45,7 @@ export default function HeroSection() {
             href="#contact"
             className="px-8 py-3 rounded-full border border-primary/40 text-foreground hover:border-primary hover:text-primary transition-colors font-semibold"
           >
-            Fale Comigo
+            Fale Conosco
           </a>
         </div>
 
@@ -54,7 +54,7 @@ export default function HeroSection() {
           {[
             { icon: Github, href: "https://github.com", label: "GitHub" },
             { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:alex@email.com", label: "Email" },
+            { icon: Mail, href: "mailto:contato@email.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

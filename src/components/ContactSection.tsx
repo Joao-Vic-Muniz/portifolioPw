@@ -21,8 +21,8 @@ export default function ContactSection() {
             Vamos <span className="text-primary">conversar?</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Estou aberto a oportunidades freelance, projetos colaborativos ou apenas uma boa
-            conversa sobre tecnologia.
+            Davi e João estão abertos a oportunidades freelance, projetos colaborativos
+            ou até mesmo uma boa conversa sobre tecnologia.
           </p>
         </div>
 
@@ -33,14 +33,20 @@ export default function ContactSection() {
               <div className="flex-1 flex items-center justify-center rounded-2xl border border-primary/30 bg-primary/5 p-12 text-center">
                 <div>
                   <div className="text-4xl mb-3">🎉</div>
-                  <p className="font-display font-bold text-xl text-primary mb-2">Mensagem enviada!</p>
-                  <p className="text-muted-foreground text-sm">Responderei em breve.</p>
+                  <p className="font-display font-bold text-xl text-primary mb-2">
+                    Mensagem enviada!
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    Responderemos em breve.
+                  </p>
                 </div>
               </div>
             ) : (
               <>
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-muted-foreground">Nome</label>
+                  <label className="block text-sm font-medium mb-2 text-muted-foreground">
+                    Nome
+                  </label>
                   <input
                     type="text"
                     required
@@ -51,7 +57,9 @@ export default function ContactSection() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-muted-foreground">Email</label>
+                  <label className="block text-sm font-medium mb-2 text-muted-foreground">
+                    Email
+                  </label>
                   <input
                     type="email"
                     required
@@ -62,7 +70,9 @@ export default function ContactSection() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-muted-foreground">Mensagem</label>
+                  <label className="block text-sm font-medium mb-2 text-muted-foreground">
+                    Mensagem
+                  </label>
                   <textarea
                     required
                     rows={5}
@@ -85,17 +95,20 @@ export default function ContactSection() {
           {/* Info */}
           <div className="flex flex-col gap-6 justify-center">
             <div>
-              <h3 className="font-display font-bold text-xl mb-2">Informações de contato</h3>
+              <h3 className="font-display font-bold text-xl mb-2">
+                Informações de contato
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Prefere falar diretamente? Me encontre nas redes sociais ou envie um e-mail.
+                Prefere falar diretamente? Entre em contato com Davi e João pelas
+                redes sociais ou por e-mail.
               </p>
             </div>
 
             <div className="flex flex-col gap-4">
               {[
-                { icon: Mail, label: "alex@email.com", href: "mailto:alex@email.com" },
-                { icon: Github, label: "github.com/alexsilva", href: "https://github.com" },
-                { icon: Linkedin, label: "linkedin.com/in/alexsilva", href: "https://linkedin.com" },
+                { icon: Mail, label: "contato@email.com", href: "mailto:contato@email.com" },
+                { icon: Github, label: "github.com/daviejoao", href: "https://github.com" },
+                { icon: Linkedin, label: "linkedin.com/in/daviejoao", href: "https://linkedin.com" },
               ].map(({ icon: Icon, label, href }) => (
                 <a
                   key={label}
